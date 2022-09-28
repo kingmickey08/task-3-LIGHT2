@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="G]r$e22aiR@7}RYL;(99" x="187" y="6"><statement name="HANDLER"><block type="controls_if" id="l)lpYp%q7YnV%,%k(.Zw"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="n$L.pO$Dl4[z8K:{fX/b"><field name="OP">LT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="zi]}CT@5JObm_h@K0YVC"></block></value><value name="B"><shadow type="math_number" id="?N*=7pVTsa42?]=w)?xI"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="c${!$up@%F!-zX6|rER1"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="*jb00K?AjP.4Z!U0Jgw`"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . .
+        `</field></block></statement></block></statement></block><block type="pxt-on-start" id="m~_W/hc5k(*d8FK|T*K0" x="20" y="20"></block></xml>
